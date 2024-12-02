@@ -1,6 +1,6 @@
 import classes from './CartItem.module.css';
 
-const CartItem = (props) => {
+const CartItem = (props: any) => {
   const { title, quantity, total, price } = props.item;
 
   return (

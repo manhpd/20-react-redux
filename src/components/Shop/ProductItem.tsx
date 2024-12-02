@@ -1,7 +1,7 @@
 import Card from '../UI/Card';
 import classes from './ProductItem.module.css';
 
-const ProductItem = (props) => {
+const ProductItem = (props: { title: any; price: any; description: any; }) => {
   const { title, price, description } = props;
 
   return (

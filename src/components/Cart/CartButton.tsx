@@ -1,6 +1,6 @@
 import classes from './CartButton.module.css';
 
-const CartButton = (props) => {
+const CartButton = (props: any) => {
   return (
     <button className={classes.button}>
       <span>My Cart</span>
